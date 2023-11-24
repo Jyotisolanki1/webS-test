@@ -1,0 +1,12 @@
+<html>
+    <script>
+        const input = [1, 0, 3, 0, -1, 0, 6];
+        for(var i=0;i<=6;i++){
+        if(input[i] === 0){       
+            input.push(input[i]);
+            input.splice(i,1)
+        }
+        }
+console.log(input)
+    </script>
+</html>
